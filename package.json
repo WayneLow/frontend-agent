@@ -1,0 +1,21 @@
+{
+  "name": "frontend-agent-tvm-poc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env backend/server.js",
+    "start": "node --env-file-if-exists=.env backend/server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.139",
+    "@built-in-ai/core": "^3.0.1",
+    "ai": "^6.0.326",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "vite": "^8.3.6"
+  }
+}
